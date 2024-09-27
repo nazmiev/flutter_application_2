@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'SiberSuite App',
+      title: 'SuberSuite App',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.black12,
       body: Container(
         constraints: const BoxConstraints.expand(),
         child: FlowChart(
@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
           onHoverScale: 1.1,
           centerOffset: position - const Offset(50, 0),
           backgroundParams: const BackgroundParams(
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.transparent,
           ),
           boundaryBackground: BoundaryBackground(
             padding: const EdgeInsets.all(16),
