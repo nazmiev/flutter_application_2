@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Flow Chart Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Ремонт Iphone'),
+      home: const MyHomePage(title: 'SuberSuite процесс:'),
     );
   }
 }
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.green,
       body: Container(
         constraints: const BoxConstraints.expand(),
         child: FlowChart(
@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
           onHoverScale: 1.1,
           centerOffset: position - const Offset(50, 0),
           backgroundParams: const BackgroundParams(
-            backgroundColor: Colors.transparent,
+            backgroundColor: Colors.green,
           ),
           boundaryBackground: BoundaryBackground(
             padding: const EdgeInsets.all(16),
