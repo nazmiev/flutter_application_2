@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Flow Chart Demo',
+      title: 'SiberSuite App',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
